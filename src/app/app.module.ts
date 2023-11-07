@@ -8,7 +8,10 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { RegistrarseComponent } from './registrarse/registrarse.component';
 import { IniciarSesionComponent } from './iniciar-sesion/iniciar-sesion.component';
-import { RecuperarContraComponent } from './recuperar-contra/recuperar-contra.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { RecuperarComponent } from './recuperar/recuperar.component';
+import { CategoriasComponent } from './categorias/categorias.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,15 @@ import { RecuperarContraComponent } from './recuperar-contra/recuperar-contra.co
     FooterComponent,
     RegistrarseComponent,
     IniciarSesionComponent,
-    RecuperarContraComponent
+    RecuperarComponent,
+    CategoriasComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
