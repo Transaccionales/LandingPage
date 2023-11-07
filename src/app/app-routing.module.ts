@@ -6,6 +6,7 @@ import { registerLocaleData } from '@angular/common';
 import { RegistrarseComponent } from './registrarse/registrarse.component';
 import {RecuperarComponent} from "./recuperar/recuperar.component";
 import {CategoriasComponent} from "./categorias/categorias.component";
+import {TopicosComponent} from "./topicos/topicos.component";
 
 const routes: Routes = [
   {
@@ -27,9 +28,12 @@ const routes: Routes = [
   {
     path:"categorias",
     component: CategoriasComponent
+  },
+  {
+    path:"topicos",
+    component: TopicosComponent
   }
 ];
-
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

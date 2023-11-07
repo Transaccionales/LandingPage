@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+#page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+#search-container {
+  display: flex;
+  align-items: center;
+}
+
+#search-box {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#search-button {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: #c4e3ff;
+}
+
+#info-container {
+  background-color: #c4e3ff;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#inner-container {
+  width: 1120px;
+  height: 280px;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+#inner-container h2 {
+  font-size: 25pt;
+  align-self: flex-start; /* Agrega margen en la parte superior e inferior */
+  margin-left: 40px;
+  margin-bottom: 1px;
+}
+
+#ask-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: #c4e3ff;
+  align-self: flex-end; /* Alinea el botón a la derecha */
+  margin-right: 50px;
+}
+
+#usuarios-publicaciones {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1120px;
+  height: 100px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  border: 2px solid black;
+}
+
+#user-info {
+  display: flex;
+  align-items: center;
+}
+
+#user-icon {
+  margin-right: 10px;
+}
+
+#user-icon img {
+  width: 30px; /* Ajusta el tamaño del icono de usuario */
+  height: 30px; /* Ajusta el tamaño del icono de usuario */
+}
+
+#responder-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: #c4e3ff;
+  margin-left: auto; /* Mueve el botón a la derecha */
+  margin-right: 50px;
+}

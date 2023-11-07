@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { RecuperarComponent } from './recuperar/recuperar.component';
 import { CategoriasComponent } from './categorias/categorias.component';
+import { TopicosComponent } from './topicos/topicos.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { CategoriasComponent } from './categorias/categorias.component';
     IniciarSesionComponent,
     RecuperarComponent,
     CategoriasComponent,
+    TopicosComponent,
 
   ],
   imports: [
